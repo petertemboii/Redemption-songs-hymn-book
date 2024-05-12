@@ -17,7 +17,7 @@ export default function Home() {
       : [];
 
   return (
-    <div>
+    <div className="pb-20">
       <div>
         <SearchBox
           placeholder="Search by number"
@@ -27,11 +27,13 @@ export default function Home() {
       <div className="flex justify-center">
         {filteredSongs.map((song) => (
           <div key={song.number}>
-            <h1 key={song.number} className="font-bold text-lg text-wrap=">
+            <h1 key={song.number} className="font-bold text-lg text-wrap">
               {song.number} {song.title}
             </h1>
             {song.verses.map((verse, index) => (
-              <p key={index} className="text-center">{verse}</p>
+              <p key={index} className="text-center">
+                {verse}
+              </p>
             ))}
           </div>
         ))}
