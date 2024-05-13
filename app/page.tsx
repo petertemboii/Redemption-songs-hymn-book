@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, ChangeEvent } from "react";
 import songs from "../constants/songs";
 import SearchBox from "../components/SearchBox";
 
 export default function Home() {
   const [searchNumber, setSearchNumber] = useState("0");
 
-  const onSearchChange = (event) => {
+  const onSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSearchNumber(event.target.value);
   };
 
