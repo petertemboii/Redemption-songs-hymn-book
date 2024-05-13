@@ -5,7 +5,7 @@ import songs from "../constants/songs";
 import SearchBox from "../components/SearchBox";
 
 export default function Home() {
-  const [searchNumber, setSearchNumber] = useState("0");
+  const [searchNumber, setSearchNumber] = useState("");
 
   const onSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSearchNumber(event.target.value);
@@ -13,7 +13,7 @@ export default function Home() {
 
   const filteredSongs =
     searchNumber.trim() !== ""
-      ? songs.filter((song) => song.number.toString().includes(searchNumber))
+      ? songs.filter((song) => song.number.toString() === searchNumber)
       : [];
 
   return (
@@ -25,18 +25,26 @@ export default function Home() {
         />
       </div>
       <div className="flex justify-center">
-        {filteredSongs.map((song) => (
-          <div key={song.number}>
-            <h1 key={song.number} className="font-bold text-lg text-wrap">
-              {song.number} {song.title}
-            </h1>
-            {song.verses.map((verse, index) => (
-              <p key={index} className="text-center">
-                {verse}
-              </p>
-            ))}
-          </div>
-        ))}
+        {searchNumber === "" ? (
+          <h1 className="font-bold text-lg text-wrap">
+            Welcome to Redemption Songs hymn book
+          </h1>
+        ) : (
+          filteredSongs.map((song) => (
+            <div key={song.number}>
+              <div key={song.number}>
+                <h1 className="font-bold text-lg text-wrap">
+                  {song.number} {song.title}
+                </h1>
+                {song.verses.map((verse, index) => (
+                  <p key={index} className="text-center">
+                    {verse}
+                  </p>
+                ))}
+              </div>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );
