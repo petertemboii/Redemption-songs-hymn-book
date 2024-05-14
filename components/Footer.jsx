@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -8,6 +9,11 @@ const Footer = () => {
       <div>
         <p>Copyright {currentDate}</p>
       </div>
+      <nav className="px-2">
+        <Link href="/about">
+          <p>About</p>
+        </Link>
+      </nav>
     </footer>
   );
 };
