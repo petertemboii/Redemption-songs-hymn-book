@@ -1,9 +1,9 @@
 export default function page() {
   return (
-    <div className="flex flex-col pt-4">
+    <div className="flex flex-col pt-4 ">
       <div>
         <h1 className="font-medium text-center text-4xl">
-          About Redemption Hymns PWA
+          About <span className="text-red-600">Redemption</span> Hymns PWA
         </h1>
         <p className="info-text text-center">
           Welcome to Redemption Songs PWA! We are thrilled to introduce you to a

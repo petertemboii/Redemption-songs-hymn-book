@@ -17,14 +17,14 @@ export default function Home() {
       : [];
 
   return (
-    <div className="pb-20">
+    <div className="flex flex-col pb-20 items-center justify-center">
       <div>
         <SearchBox
           placeholder="Search by number"
           searchChange={onSearchChange}
         />
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center items-center flex-1  w-fit rounded-[20px] shadow-2xl px-10 py-7">
         {searchNumber === "" ? (
           <h1 className="font-bold text-lg text-wrap">
             Welcome to Redemption Songs hymn book
@@ -33,7 +33,7 @@ export default function Home() {
           filteredSongs.map((song) => (
             <div key={song.number}>
               <div key={song.number}>
-                <h1 className="font-bold text-lg text-wrap">
+                <h1 className="font-bold text-xl text-wrap text-red-600">
                   {song.number} {song.title}
                 </h1>
                 {song.verses.map((verse, index) => (
