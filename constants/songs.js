@@ -478,7 +478,7 @@ const songs = [
       "On the cruel cross He suffered,",
       "From the curse to set me free.",
       "Sing, oh sing....of my Redeemer:",
-      "With His bloold... He purchased me...",
+      "With His blood... He purchased me...",
       "One the cross... He sealed my pardon...",
       "Paid the debt... and made me free...",
       "2 I will tell the wondrous story,",
