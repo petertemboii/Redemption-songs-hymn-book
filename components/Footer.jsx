@@ -6,7 +6,7 @@ const Footer = () => {
   const currentDate = new Date().getFullYear();
 
   return (
-    <footer className="justify-center  text-center fixed bottom-0 w-full bg-gray-200 py-6">
+    <footer className="justify-center  text-center fixed bottom-0 w-full bg-gray-200 py-2">
       <div className="flex flex-row justify-center">
         <div>
           <p>Copyright {currentDate}</p>
@@ -18,7 +18,10 @@ const Footer = () => {
         </nav>
       </div>
       <div>
-        <p className="pt-3">(We have currently added {songs[songs.length - 1].number} of 945 songs.)</p>
+        <p>
+          (We have currently added {songs[songs.length - 1].number} of 945
+          songs.)
+        </p>
       </div>
     </footer>
   );
