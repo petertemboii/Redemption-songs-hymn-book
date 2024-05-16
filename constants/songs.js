@@ -5,7 +5,7 @@ const songs = [
     number: 1,
     title: ".  All Hail the Power of Jesus' Name",
     verses: [
-      "1. ALL hail the power of Jesu’s name,",
+      "1 ALL hail the power of Jesu’s name,",
       " Let angels prostrate fall;",
       " Bring forth the royal diadem,",
       "And crown Him Lord of all.",
@@ -35,7 +35,7 @@ const songs = [
     number: 2,
     title: ". Break Thou the Bread of Life",
     verses: [
-      "BREAK Thou the bread of life,",
+      "1 BREAK Thou the bread of life,",
       "Dear Lord, to me,",
       "As Thou didst break the loaves",
       "Beside the sea.",
@@ -73,7 +73,7 @@ const songs = [
     number: 3,
     title: ". We Come Before Thy Throne Today",
     verses: [
-      "WE come before Thy throne to-day,",
+      "1 WE come before Thy throne to-day,",
       "Thy promised presence claim;",
       "O come and enter now our hearts,",
       "And set our souls aflame.",
@@ -97,7 +97,7 @@ const songs = [
     number: 4,
     title: ". The Name of Jesus is So Sweet",
     verses: [
-      "THE name of Jesus is so sweet,",
+      "1 THE name of Jesus is so sweet,",
       "I love its music to repeat;",
       "It makes my joys full and complete,",
       "The precious name of Jesus.",
@@ -123,7 +123,7 @@ const songs = [
     number: 5,
     title: ". When Upon Life’s Billows",
     verses: [
-      "WHEN upon life’s billows you are tempest tossed,",
+      "1 WHEN upon life’s billows you are tempest tossed,",
       "When you are discouraged, thinking all is lost",
       "Count your many blessings, name them one by one,",
       "And it will surprise you what the Lord hath done.",
@@ -149,7 +149,7 @@ const songs = [
     number: 6,
     title: ". God is Here, and That To Bless Us",
     verses: [
-      "GOD is here, and that to bless us",
+      "1 GOD is here, and that to bless us",
       "With the Spirit’s quickening power:",
       "See, the cloud already bending,",
       "Waits to drop the grateful shower.",
@@ -175,7 +175,7 @@ const songs = [
     number: 7,
     title: ". To God be the Glory",
     verses: [
-      "TO God be the glory, great things He hath done,",
+      "1 TO God be the glory, great things He hath done,",
       "So loved He the world that He gave us His Son,",
       "Who yielded His life an atonement for sin,",
       "And opened the Life Gate that all may o in.",
@@ -199,7 +199,7 @@ const songs = [
     number: 8,
     title: ". Who is on the Lord's Side?",
     verses: [
-      "WHO is on the Lord’s side?",
+      "1 WHO is on the Lord’s side?",
       "Who will serve the King?",
       "Who will be His helpers,",
       "Other lives to bring?",
@@ -255,7 +255,7 @@ const songs = [
     number: 9,
     title: ". I Must Have the Saviour With Me",
     verses: [
-      "I MUST have the Saviour with me",
+      "1 I MUST have the Saviour with me",
       "For I dare not walk alone,",
       "I must feel His presence near me,",
       "And His arm around me thrown,",
@@ -281,7 +281,7 @@ const songs = [
     number: 10,
     title: ". Here in Thy Name We are Gathered",
     verses: [
-      "HERE in Thy name we are gathered,",
+      "1 HERE in Thy name we are gathered,",
       "Come and revive us, O Lord;",
       "There shall be showers of blessing,",
       "Thou hast declared in Thy word.",
@@ -307,7 +307,7 @@ const songs = [
     number: 11,
     title: ". My Song Shall Be of Jesus",
     verses: [
-      "MY song shall be of Jesus,",
+      "1 MY song shall be of Jesus,",
       "His mercy crowns my days,",
       "He fills my cup with blessings,",
       "And tunes my heart to praise;",
@@ -337,7 +337,7 @@ const songs = [
     number: 12,
     title: ". Praise Him, Jesus Our Blessed Redeemer",
     verses: [
-      "PRAISE Him, praise Him, Jesus, our blessed Redeemer,",
+      "1 PRAISE Him, praise Him, Jesus, our blessed Redeemer,",
       "Sing, O earth, His wonderful love proclaim,",
       "Hail Him! hail Him! highest archangels in glory,",
       "Strength and honour give to His holy name.",
@@ -367,7 +367,7 @@ const songs = [
     number: 13,
     title: ". Standing on the Promises of Christ",
     verses: [
-      "STANDING on the promises of Christ our King,",
+      "1 STANDING on the promises of Christ our King,",
       "Through eternal ages let His praises ring:",
       "Glory in the highest, I will shout and sing,",
       "Standing on the promises of God.",
@@ -393,7 +393,7 @@ const songs = [
     number: 14,
     title: ". The Wondrous Work the Lord Has Done",
     verses: [
-      "THE wondrous work the Lord has done",
+      "1 THE wondrous work the Lord has done",
       "Let every voice proclaim!",
       "And for the work of grace begun;",
       "The wondrous battle fought and won,",
@@ -402,7 +402,7 @@ const songs = [
       "He came in mighty power!",
       "We pleaded for the droppings,",
       "And, lo, He sent the shower!",
-      "Unto the Lord doth praise belong",
+      "2 Unto the Lord doth praise belong",
       "O tell it everywhere!",
       "Let every ransomed soul prolong",
       "The loud hosannah of the song",

@@ -26,8 +26,9 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center flex-1  w-fit rounded-[20px] shadow-2xl px-10 py-7">
         {searchNumber === "" ? (
-          <h1 className="font-bold text-lg text-wrap">
-            Welcome to Redemption Songs hymn book
+          <h1 className="font-bold text-lg justify-center text-center">
+            Welcome to <span className="text-red-600">Redemption</span> Songs
+            hymn book
           </h1>
         ) : (
           filteredSongs.map((song) => (
