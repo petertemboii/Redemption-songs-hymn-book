@@ -26,23 +26,26 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center flex-1  w-fit rounded-[20px] shadow-2xl px-10 py-7">
         {searchNumber === "" ? (
-          <h1 className="font-bold text-lg justify-center text-center">
+          <h1 className="font-bold text-lg text-center">
             Welcome to <span className="text-red-600">Redemption</span> Songs
             hymn book
           </h1>
         ) : (
           filteredSongs.map((song) => (
-            <div key={song.number}>
-              <div key={song.number}>
-                <h1 className="font-bold text-xl text-wrap text-red-600">
-                  {song.number} {song.title}
-                </h1>
-                {song.verses.map((verse, index) => (
-                  <p key={index} className="text-center">
-                    {verse}
-                  </p>
-                ))}
-              </div>
+            <div key={song.number} className="text-center">
+              <h1 className="font-bold text-2xl text-red-600 mb-4">
+                {song.number}. {song.title}
+              </h1>
+              {song.verses.map((verse, index) => (
+                <p
+                  key={index}
+                  className={`mb-2 ${
+                    verse.type === "chorus" ? "italic my-4" : "text-lg font-normal"
+                  }`}
+                >
+                  {verse.line}
+                </p>
+              ))}
             </div>
           ))
         )}
