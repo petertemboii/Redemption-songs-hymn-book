@@ -40,7 +40,9 @@ export default function Home() {
                 <p
                   key={index}
                   className={`mb-2 ${
-                    verse.type === "chorus" ? "italic my-4" : "text-lg font-normal"
+                    verse.type === "chorus"
+                      ? "italic my-4"
+                      : "text-lg font-normal"
                   }`}
                 >
                   {verse.line}
