@@ -837,7 +837,7 @@ const songs = [
     number: 25,
     title: "Holy, Holy, Holy",
     verses: [
-      { line: "1 Holy,holy,holy, Lord God Almighty!", type: "verse" },
+      { line: "1 Holy, holy, holy, Lord God Almighty!", type: "verse" },
       {
         line: "Early in the morning our song shall rise to Thee;",
         type: "verse",
@@ -871,6 +871,31 @@ const songs = [
       },
       { line: "Holy, holy, holy, merciful and mighty,", type: "verse" },
       { line: "God in three Persons, blessed Trinity!", type: "verse" },
+    ],
+  },
+  {
+    number: 26,
+    title: "All People That on Earth Do Dwell",
+    verses: [
+      {
+        line: "1 ALL people that on earth do dwell,",
+        type: "verse",
+      },
+      { line: "Sing to the Lord with cheerful voice;", type: "verse" },
+      { line: "Him serve with mirth, His praise forth tell!", type: "verse" },
+      { line: "Come ye before Him and rejoice.", type: "verse" },
+      { line: "2 Know that the Lord is God indeed;", type: "verse" },
+      { line: "Without our aid He did us make:", type: "verse" },
+      { line: "We are His flock, He doth us feed,", type: "verse" },
+      { line: "And for His sheep, He doth us take.", type: "verse" },
+      { line: "3 Oh, enter then His gates with praise,", type: "verse" },
+      { line: "Approach with joy His courts unto;", type: "verse" },
+      { line: "Praise, laud, and bless His Name always,", type: "verse" },
+      { line: "For it is seemly so to do.", type: "verse" },
+      { line: "4 For why? the Lord our God is good.", type: "verse" },
+      { line: "His mercy is for ever sure;", type: "verse" },
+      { line: "His truth at all times firmly stood,", type: "verse" },
+      { line: "And shall from age to age endure.", type: "verse" },
     ],
   },
 ];
