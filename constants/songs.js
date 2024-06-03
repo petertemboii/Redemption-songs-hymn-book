@@ -813,7 +813,7 @@ const songs = [
   },
   {
     number: 24,
-    title: "AWAKe, My Soul  ",
+    title: "Awake, My Soul  ",
     verses: [
       { line: "1 AWAKE my soul, and with the sun", type: "verse" },
       { line: "Thy daily stage of duty run;", type: "verse" },
@@ -896,6 +896,160 @@ const songs = [
       { line: "His mercy is for ever sure;", type: "verse" },
       { line: "His truth at all times firmly stood,", type: "verse" },
       { line: "And shall from age to age endure.", type: "verse" },
+    ],
+  },
+  {
+    number: 27,
+    title: "Jesus Has Loved Me",
+    verses: [
+      { line: "1 Jesus has loved me—wonderful Saviour!", type: "verse" },
+      { line: "Jesus has loved me, I cannot tell why;", type: "verse" },
+      { line: "Came He to rescue sinners all worthless,", type: "verse" },
+      { line: "My heart He conquered, for Him I would die.", type: "verse" },
+      { line: "Glory to Jesus—wonderful Saviour!", type: "chorus" },
+      { line: "Glory to Jesus, the One I adore;", type: "chorus" },
+      {
+        line: "Glory to Jesus—wonderful Saviour!",
+        type: "chorus",
+      },
+      {
+        line: "Glory to Jesus, and praise evermore.",
+        type: "chorus",
+      },
+      {
+        line: "2 Jesus has saved me—wonderful Saviour!",
+        type: "verse",
+      },
+      {
+        line: "Jesus has saved me, I cannot tell how;",
+        type: "verse",
+      },
+      {
+        line: "All that I know is He was my ransom,",
+        type: "verse",
+      },
+      {
+        line: "Dying on Calvary with thorns on His brow.",
+        type: "verse",
+      },
+      {
+        line: "3 Jesus will lead me—wonderful Saviour!",
+        type: "verse",
+      },
+      {
+        line: "Jesus will lead me, I cannot tell where;",
+        type: "verse",
+      },
+      {
+        line: "But I will follow through joy or sorrow,",
+        type: "verse",
+      },
+      {
+        line: "Sunshine or tempest, sweet peace or despair.",
+        type: "verse",
+      },
+      {
+        line: "4 Jesus will crown me—wonderful Saviour!",
+        type: "verse",
+      },
+      {
+        line: "Jesus will crown me, I cannot tell when;",
+        type: "verse",
+      },
+      {
+        line: "White throne of splendour, hail I with gladness,",
+        type: "verse",
+      },
+      {
+        line: "Crowned with the plaudits of angels and men.",
+        type: "verse",
+      },
+    ],
+  },
+  {
+    number: 28,
+    title: "Cleansed in Our Saviour's Blood",
+    verses: [
+      {
+        line: "1 Cleansed in our Saviour's precious blood,",
+        type: "verse",
+      },
+      {
+        line: "Filled with the fulness of our God,",
+        type: "verse",
+      },
+      {
+        line: "Walking by faith the path He trod,",
+        type: "verse",
+      },
+      {
+        line: "Hallelujah! Hallelujah!",
+        type: "verse",
+      },
+      {
+        line: "2 Leaning our heads on Jesus' breast,",
+        type: "verse",
+      },
+      {
+        line: "Knowing the joy of that sweet rest,",
+        type: "verse",
+      },
+      {
+        line: "Finding in Him the chief, the best,",
+        type: "verse",
+      },
+      {
+        line: "Hallelujah! Hallelujah!",
+        type: "verse",
+      },
+      {
+        line: "3 Kept by His power from day to day,",
+        type: "verse",
+      },
+      {
+        line: "Held by His hand, we cannot stray,",
+        type: "verse",
+      },
+      {
+        line: "Glory to glory all the way,",
+        type: "verse",
+      },
+      {
+        line: "Hallelujah! Hallelujah!",
+        type: "verse",
+      },
+      {
+        line: "4 Living in us His own pure life,",
+        type: "verse",
+      },
+      {
+        line: "Giving us rest from inward strife,",
+        type: "verse",
+      },
+      {
+        line: "From strength to strength, from death to life,",
+        type: "verse",
+      },
+      {
+        line: "Hallelujah! Hallelujah!",
+        type: "verse",
+      },
+      {
+        line: "5 Oh, what a Saviour we have found!",
+        type: "verse",
+      },
+      {
+        line: "Well may we make the world resound,",
+        type: "verse",
+      },
+      {
+        line: "With one continual, joyous sound,",
+        type: "verse",
+      },
+      {
+        line: "Hallelujah! Hallelujah!",
+        type: "verse",
+      },
     ],
   },
 ];
