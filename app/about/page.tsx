@@ -35,6 +35,19 @@ export default function page() {
         <h1 className="text-center">
           Thank you for being a part of the Redemption Songs PWA community!
         </h1>
+        <br />
+        <h1>
+          Click the{" "} 
+          <a
+            href="https://youtu.be/XQi8uXP2j7U?si=-WGU9I_XPIN9qMEX"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-600 font-semibold"
+          >
+            link
+          </a>{" "}
+          to watch how you can contribute by adding songs to this application.
+        </h1>
       </div>
     </div>
   );
